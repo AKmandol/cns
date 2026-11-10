@@ -91,10 +91,10 @@ class DatabaseSeeder extends Seeder
         });
 
         $listings = [
-            [$shopOne, $products['DEMO-MUG-001'], '350.00', 'Classic mug for daily coffee.', 'products/demo-mug.jpg'],
-            [$shopOne, $products['DEMO-HEADPHONE-001'], '1800.00', 'Comfortable headphones with clear sound.', 'products/demo-headphones.jpg'],
-            [$shopTwo, $products['DEMO-MUG-001'], '400.00', 'A sturdy mug for your home or office.', 'products/demo-mug.jpg'],
-            [$shopTwo, $products['DEMO-LAMP-001'], '2200.00', 'Warm, adjustable light for your desk.', 'products/demo-lamp.jpg'],
+            [$shopOne, $products['DEMO-MUG-001'], '350.00', 'Classic mug for daily coffee.', null],
+            [$shopOne, $products['DEMO-HEADPHONE-001'], '1800.00', 'Comfortable headphones with clear sound.', null],
+            [$shopTwo, $products['DEMO-MUG-001'], '400.00', 'A sturdy mug for your home or office.', null],
+            [$shopTwo, $products['DEMO-LAMP-001'], '2200.00', 'Warm, adjustable light for your desk.', null],
         ];
 
         foreach ($listings as [$shop, $product, $price, $description, $thumbnail]) {
