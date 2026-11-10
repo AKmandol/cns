@@ -16,10 +16,15 @@ npm --version
 
 ## 2. Install the project packages
 
-Run those commands from the repository root.
+Clone project.
 
 ```bash
 git clone https://github.com/AKmandol/cns.git
+```
+
+Run those commands from the repository root.
+
+```bash
 composer install
 npm ci
 ```
