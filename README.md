@@ -19,6 +19,7 @@ npm --version
 Run those commands from the repository root.
 
 ```bash
+git clone https://github.com/AKmandol/cns.git
 composer install
 npm ci
 ```
@@ -89,7 +90,7 @@ The example environment uses database-backed sessions, cache, and queues. Their 
 
 ```bash
 php artisan key:generate
-php artisan migrate --seed
+php artisan migrate:fresh --seed
 php artisan storage:link
 ```
 
@@ -114,14 +115,6 @@ npm run dev
 ```
 
 Open <http://localhost:8000>. Vite will recompile Vue and CSS changes while the development server is running.
-
-To build production frontend assets instead, run:
-
-```bash
-npm run build
-```
-
-Then serve the Laravel application with your normal PHP web server. The built frontend assets are read from `public/build`.
 
 ## Demo accounts
 
